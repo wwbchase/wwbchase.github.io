@@ -34,11 +34,6 @@
     let score = 0;
     let gameOver = false;
 
-    function drawBird() {
-      ctx.fillStyle = "yellow";
-      ctx.fillRect(bird.x, bird.y, bird.width, bird.height);
-    }
-
     function drawPipes() {
       ctx.fillStyle = "green";
       pipes.forEach(pipe => {
